@@ -1,8 +1,11 @@
 import React from 'react'
 import Bootstrap from 'bootstrap/dist/css/bootstrap.css';
+import Layout from '../../components/Layouts/layout';
 function About() {
   return (
-    <div>About</div>
+    <Layout>
+      <div>About</div>
+    </Layout>
   )
 }
 
