@@ -1,16 +1,12 @@
 import React from 'react'
-import Layout from '../../components/Layouts/layout';
 import Bootstrap from 'bootstrap/dist/css/bootstrap.css';
-import Contactus from '../Contact/ContactUsHtml';
+import Layout from '../../components/Layouts/layout';
 function Contact() {
   return (
-   
     <Layout>
-     <Contactus/>
+      <div>About</div>
     </Layout>
-    
-   
   )
 }
 
-export default Contact
+export default About

@@ -49,7 +49,7 @@ header .logo img{
 header .nav-link{
     display: inline-flex;
     justify-content:  center;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 0 1rem !important;
     font-size: 1.125rem;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -94,6 +94,78 @@ header .roundpoint{
 /*  */
 
 @media(max-width:992px){
+    header .navbar{
+        background-color: wheat;
+
+    }
+    header .navbar-toggler{
+        border: none;
+
+    }
+
+    header .navbar-toggler.navbar-toggler:focus{
+        outline: none;
+        box-shadow: none;
+    }
+    header .navbar-toggler-icon{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    header .nav-link{
+        color:black ;
+        padding: 1rem !important;
+    }
+}
+
+@media(max-width:768px){
+    header .navbar{
+        background-color: wheat;
+
+    }
+    header .navbar-toggler{
+        border: none;
+
+    }
+
+    header .navbar-toggler.navbar-toggler:focus{
+        outline: none;
+        box-shadow: none;
+    }
+    header .navbar-toggler-icon{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    header .nav-link{
+        color:black ;
+        padding: 1rem !important;
+    }
+}
+
+@media(max-width:576px){
+    header .navbar{
+        background-color: wheat;
+
+    }
+    header .navbar-toggler{
+        border: none;
+
+    }
+
+    header .navbar-toggler.navbar-toggler:focus{
+        outline: none;
+        box-shadow: none;
+    }
+    header .navbar-toggler-icon{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    header .nav-link{
+        color:black ;
+        padding: 1rem !important;
+    }
+}
+
+@media(max-width:480px){
     header .navbar{
         background-color: wheat;
 
