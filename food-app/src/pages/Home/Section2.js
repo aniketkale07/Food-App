@@ -9,18 +9,18 @@ function Section2() {
   const mockData = [
     {
       image: Pizza,
-      title: 'Original Italian Pizza',
-      description: 'Our classic Italian pizza, made with love and care.',
+      title: 'Share the Joy',
+      description: 'Perfect for sharing with family and friends, our pizzas are made to bring people together. Grab a slice and enjoy the moment!',
     },
     {
       image: Pasta,
-      title: 'Spaghetti Bolognese',
-      description: 'Our classic Italian pasta dish, made with love and care.',
+      title: 'Fast & Reliable Delivery',
+      description: 'Get your favorite meals delivered to your doorstep quickly and efficiently. Our delivery team ensures your food is fresh, hot, and on time, every time.',
     },
     {
       image: Salad,
-      title: 'Garden Salad',
-      description: 'Our fresh and healthy garden salad, made with love and care.',
+      title: 'Vegan & Vegetarian Options',
+      description: 'Satisfy your cravings with our exclusive range of vegan and vegetarian dishes. Made with love and packed with flavor, they’re perfect for every palate.',
     },
   ];
 
@@ -32,9 +32,9 @@ function Section2() {
           <Row >
             <Col lg={{ span: 8, offset: 2 }} className="text-center mt-4">
 
-              <h2>The burger tastes better when you eat it with your family.</h2>
+              <h2>The Burger Tastes Better When You Eat It With Your Family.</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis imperdiet.
+              Sharing a burger with loved ones makes every bite more enjoyable. Our delicious burgers are made to create unforgettable moments together.
               </p>
               <Link to="/menu" className="btn order_now btn_red text-dark btn-outline-danger">
                 Explore Full Menu

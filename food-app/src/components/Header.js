@@ -1,28 +1,24 @@
-import React, { Fragment, useState, useEffect } from 'react';
-import Bootstrap from 'bootstrap/dist/css/bootstrap.css';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import { Link } from 'react-router';
+import React, { useState, useEffect } from 'react';
+import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Link } from 'react-router'; 
 import Logo from '../assets/logo/logo.png';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-
-// Internal CSS
 import '../styles/header.css';
+
+
 
 function Header() {
   const [nav, setNav] = useState(false);
 
   const changeOnScroll = () => {
-    const scrollValue = document?.documentElement?.scrollTop;
+    const scrollValue = document.documentElement.scrollTop;
     setNav(scrollValue > 100);
   };
 
+  // Attach scroll event listener on component mount
   useEffect(() => {
-    // Attach scroll listener on mount
     window.addEventListener('scroll', changeOnScroll);
     return () => {
-      // Remove listener on unmount
       window.removeEventListener('scroll', changeOnScroll);
     };
   }, []);
@@ -35,7 +31,7 @@ function Header() {
       >
         <Container>
           <Navbar.Brand href="#home">
-            <Link className="logo">
+            <Link to="/" className="logo">
               <img src={Logo} alt="logo" className="img-fluid" />
             </Link>
           </Navbar.Brand>
@@ -45,19 +41,19 @@ function Header() {
               <Nav.Link as={Link} to={'/'}>
                 Home
               </Nav.Link>
-              <Nav.Link as={Link} to={'about'}>
+              <Nav.Link as={Link} to={'/about'}>
                 About
               </Nav.Link>
-              <Nav.Link as={Link} to={'menu'}>
+              <Nav.Link as={Link} to={'/menu'}>
                 Our Menu
               </Nav.Link>
-              <Nav.Link as={Link} to={'shop'}>
+              <Nav.Link as={Link} to={'/shop'}>
                 Shop
               </Nav.Link>
-              <Nav.Link as={Link} to={'blog'}>
+              <Nav.Link as={Link} to={'/blog'}>
                 Blog
               </Nav.Link>
-              <Nav.Link as={Link} to={'contact'}>
+              <Nav.Link as={Link} to={'/contact'}>
                 Contact
               </Nav.Link>
               <Nav.Link as={Link} to={'/'}>
