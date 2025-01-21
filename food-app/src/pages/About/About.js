@@ -1,8 +1,10 @@
 import React from 'react'
-
+import Layout from '../../components/Layouts/layout'
 function About() {
   return (
-    <div>About</div>
+    <Layout>
+      <div>About</div>
+    </Layout>
   )
 }
 

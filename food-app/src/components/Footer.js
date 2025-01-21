@@ -61,22 +61,22 @@ function Footer() {
               <ul className="list-unstyled d-flex justify-content-center mt-2">
                 <li className="mx-2">
                   <Link to="/">
-                    <i className="bi bi-facebook"></i> arohiSoftware
+                    <i className="bi bi-facebook"></i> 
                   </Link>
                 </li>
                 <li className="mx-2">
                   <Link to="/">
-                    <i className="bi bi-instagram"></i> arohiSoftware
+                    <i className="bi bi-instagram"></i> 
                   </Link>
                 </li>
                 <li className="mx-2">
                   <Link to="/">
-                    <i className="bi bi-twitter"></i> arohiSoftware
+                    <i className="bi bi-twitter"></i> 
                   </Link>
                 </li>
                 <li className="mx-2">
                   <Link to="/">
-                    <i className="bi bi-youtube"></i> arohiSoftware
+                    <i className="bi bi-youtube"></i> 
                   </Link>
                 </li>
               </ul>

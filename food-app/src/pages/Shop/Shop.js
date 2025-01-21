@@ -1,8 +1,10 @@
 import React from 'react'
-
+import Layout from '../../components/Layouts/layout'
 function Shop() {
   return (
-    <div>Shop</div>
+    <Layout>
+      <div>Shop</div>
+    </Layout>
   )
 }
 

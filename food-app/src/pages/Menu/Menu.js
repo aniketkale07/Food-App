@@ -1,9 +1,10 @@
 import React from 'react'
-
+import Layout from '../../components/Layouts/layout'
 function Menu() {
   return (
-    
-    <div>Menu</div>
+    <Layout>
+      <div>Menu</div>
+    </Layout>
   )
 }
 
