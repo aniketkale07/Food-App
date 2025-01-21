@@ -7,7 +7,7 @@ function Layout({ children }) {
     <Fragment>
       <Header />
       <div>{children}</div>
-      <Footer />
+      {/* <Footer /> */}
     </Fragment>
   );
 }

@@ -1,13 +1,13 @@
-.hero_section{
+.hero_section {
     position: relative;
     background: url('../assets/hero/hero-1.jpg') no-repeat center center;
     background-size: cover;
-background-attachment: fixed;
-padding-top: 170px;
-padding-bottom: 90px;
+    background-attachment: fixed;
+    padding-top: 170px;
+    padding-bottom: 90px;
 }
 
-.hero_section .price_badge{
+.hero_section .price_badge {
     background: url('../assets/hero/price-badge-yellow.png') no-repeat center center;
     background-size: cover;
     position: absolute;
@@ -18,35 +18,36 @@ padding-bottom: 90px;
     text-align: center;
 }
 
-.hero_section .badge_text{
+.hero_section .badge_text {
     width: 100%;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    
+
 }
 
-.hero_section .badge_text .h4_xs{
+.hero_section .badge_text .h4_xs {
     font-size: 1.875rem;
     font-weight: 600;
     line-height: 1;
 
 }
 
-.hero_section .badge_text .h3_lg{
+.hero_section .badge_text .h3_lg {
     font-size: 2.875rem;
     font-weight: 600;
     line-height: 1;
 }
+
 .hero_section .hero_text h3 {
-    font-family:Lucida Sans;
+    font-family: Lucida Sans;
     font-size: 7rem;
     line-height: 1;
     margin-bottom: 15px;
     letter-spacing: 5px;
 }
 
-.hero_section .hero_text h2{
+.hero_section .hero_text h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 2.5rem;
     line-height: 1;
@@ -54,49 +55,53 @@ padding-bottom: 90px;
     letter-spacing: 3px;
 }
 
-.hero_section .hero_text p{
-     padding: 0.5%;
+.hero_section .hero_text p {
+    padding: 0.5%;
 }
 
 
 
 /* About Section2 css */
 
-.about_section{
+.about_section {
     padding-top: 80px;
     padding-bottom: 300px;
-    background:url('../assets/about/about-1.jpg') no-repeat center center;
+    background: url('../assets/about/about-1.jpg') no-repeat center center;
     background-size: cover;
     width: 100%;
 
 }
-.about_section h2{
+
+.about_section h2 {
     font-size: 3.5rem;
 }
-.about_section p{
+
+.about_section p {
     color: gray;
     padding: 20px 30px;
-    font-size:19px ;
+    font-size: 19px;
 }
 
-.about-wrapper{
+.about-wrapper {
     background: yellow;
     padding-top: 70px;
-padding-bottom: 30px;
+    padding-bottom: 30px;
 }
 
-.about_box  .about_icon{
-  max-width: 25%;
-    
+.about_box .about_icon {
+    max-width: 25%;
+
 }
-.about_box h4{
+
+.about_box h4 {
     font-size: 26px;
     line-height: 1;
     letter-spacing: 0.5008px;
     margin-top: 30px;
     margin-bottom: 20px;
 }
-.about_box p{
+
+.about_box p {
     font-size: 18px;
     line-height: 1.5;
     color: gray;
@@ -165,7 +170,7 @@ padding-bottom: 30px;
 }
 
 .menu_section .add_to_cart {
-    
+
     display: inline-block;
     font-size: 1rem;
     font-weight: 700;
@@ -185,41 +190,133 @@ padding-bottom: 30px;
     transform: translateY(0);
 }
 
-.menu_section .ads_box{
+.menu_section .ads_box {
     text-align: right;
     padding: 80px 35px 50px;
     border-radius: 6px;
 }
 
-.menu_section .ads_img1{
+.menu_section .ads_img1 {
     background: url('../assets/menu/ads-1.jpg') no-repeat center center;
     background-size: cover;
 }
 
-.menu_section .ads_img2{
+.menu_section .ads_img2 {
     background: url('../assets/menu/ads-2.jpg') no-repeat center center;
     background-size: cover;
 }
 
-.menu_section .ads_box h4{
+.menu_section .ads_box h4 {
     font-size: 2.25rem;
     font-weight: 300;
     color: rgb(175, 97, 66);
 
 }
 
-.menu_section .ads_box h5{
+.menu_section .ads_box h5 {
     font-size: 2.375rem;
     color: rgb(175, 97, 66);
 }
 
-.menu_section .ads_box a{
+.menu_section .ads_box a {
     margin-top: 15px;
     font-size: 18px;
 
 }
 
 
+/*Section 4  */
+.promotion_section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: lightgray;
+
+}
+
+.promotion_section h2 {
+    font-size: 2.7rem;
+    margin-bottom: 25px;
+}
+
+.promotion_section p {
+    font-size: 1.125rem;
+
+}
+
+.promotion_section ul {
+    padding-left: 15px;
+}
+
+.bg-parellex {
+    background: url('../assets/parallax/bg.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 700%;
+}
+
+
+/* Section 5  Home Shop */
+.shop_section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: yellow;
+
+}
+
+.shop_section h4 {
+    font-size: 2.375rem;
+    font-weight: 400;
+    color: chocolate;
+
+}
+
+.shop_section h2 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: chocolate;
+}
+
+.shop_section p {
+    font-size: 1.125rem;
+    color: chocolate;
+    padding-right: 10px;
+    margin-bottom: 40px;
+
+}
+
+.shop_section .store {
+    max-width: 40%;
+}
+
+.shop_section .e-shop {
+    text-align: center;
+
+}
+
+.brand-section {
+    padding: 70px 0 40px;
+    background-color: lightgray;
+    overflow: hidden;
+
+}
+
+.brand-section .brand_img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel.slide .carousel-inner {
+    overflow: unset;
+
+}
+
+.carousel.slide .carousel-inner .carousel-caption {
+    position: relative;
+    right: unset;
+    left: unset;
+}
 
 
 
@@ -233,56 +330,105 @@ padding-bottom: 30px;
 
 
 
+@media(max-width:1200px) {
+    .promotion_section h2 {
+        font-size: 2.756rem;
+    }
+}
 
-@media(max-width:767px){
 
-    .hero_section .hero_text{
+
+
+
+
+
+
+
+
+
+@media(max-width:767px) {
+
+    .hero_section .hero_text {
         font-size: 5.5rem;
     }
 }
 
-@media(max-width:992px){
-    .about_section h2{
+@media(max-width:992px) {
+    .about_section h2 {
         font-size: 2.5rem;
     }
-    .about_section p{
+
+    .about_section p {
         font-size: 1rem;
         padding: 10px 0px;
     }
 
-    .about_box p{
+    .about_box p {
         padding: 0 0px;
     }
-}
 
-@media (max-width: 575px) {
-    .hero_section .hero_text{
-        font-size: 4.5rem;
-        padding: 0%;
+    /* home shop */
+    .shop_section h2 {
+        font-size: 3.75rem;
     }
-    .hero_section .badge_text .h4_xs{
-        font-size: 1.5rem;
-    }
-    .hero_section .badge_text .h3_lg{
-        font-size: 2.5rem;
-    }
-    .hero_section .hero_text h2{
-        font-size: 1.5rem;
-    }
-    .hero_section .hero_text p{
+
+    .shop_section p {
         font-size: 1rem;
     }
-    .about_section h2{
-        font-size: 2.5rem;
+
+    .shop_section .h4 {
+        font-size: 1.8rem;
     }
-    .about_section p{
-        font-size: 1rem;
+
+    .brand-section {
+        padding: 50px 0 10px;
     }
-    .about_box h4{
-        font-size: 1.5rem;
+
+    .brand-section h2 {
+        font-size: 3.75rem;
     }
-    .about_box p{
-        font-size: 1rem;
+
+    .brand-section .brand_img {
+
+        width: 70%;
+        height: auto;
     }
 }
+    @media (max-width: 575px) {
+        .hero_section .hero_text {
+            font-size: 4.5rem;
+            padding: 0%;
+        }
 
+        .hero_section .badge_text .h4_xs {
+            font-size: 1.5rem;
+        }
+
+        .hero_section .badge_text .h3_lg {
+            font-size: 2.5rem;
+        }
+
+        .hero_section .hero_text h2 {
+            font-size: 1.5rem;
+        }
+
+        .hero_section .hero_text p {
+            font-size: 1rem;
+        }
+
+        .about_section h2 {
+            font-size: 2.5rem;
+        }
+
+        .about_section p {
+            font-size: 1rem;
+        }
+
+        .about_box h4 {
+            font-size: 1.5rem;
+        }
+
+        .about_box p {
+            font-size: 1rem;
+        }
+    }
