@@ -52,7 +52,7 @@ header .nav-link{
     color: rgb(0, 0, 0);
     padding: 0 1rem !important;
     font-size: 1.125rem;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Gill Sans MT';
     text-transform: uppercase;
     transition: all 15ms ease-in-out;
     -webkit-transition: all 15ms ease-in-out;
@@ -63,12 +63,13 @@ header .nav-link{
 }
 
 header .sticky .nav-link
-{
+{   border-bottom: 0px solid blue;
     color: black;
 
 }
 header .nav-link:hover{
-    color: yellow;
+    color: rgb(44, 44, 6);
+    border-bottom: 1px solid blue;     
 }
 
 header .card{

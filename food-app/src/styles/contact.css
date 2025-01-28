@@ -1,0 +1,110 @@
+.section1 {
+    display: flex;
+    justify-content: center;
+    background: url("/src/assets/blog/reviews.jpg");
+    padding-top: 100px;
+    padding-bottom: 80px;
+    background-color: antiquewhite;
+}
+
+
+.section1 h1{
+    position: relative;
+    padding-top: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.contact-form-section{
+    background: url('../assets/contact/image.png') no-repeat center ;
+    background-size: cover;
+    background-clip: border-box;
+    backface-visibility: visible;
+    top: 0%;
+    font-size: 1.2rem;
+}
+
+.contact-form-section label{
+    font-family:Gill Sans MT ;
+    font-weight: 500;
+    padding-top: 5px;
+    margin-top: 5px;
+    font-size: 1.rem;
+
+}
+
+.contact-form-section input{
+    margin-bottom: 12px;
+    font-family:Gill Sans MT;
+    border: 1px solid   ;
+}
+
+.contact-form-section textarea{
+    margin-bottom: 22px;
+}
+.contact-form-section .btn-group{
+padding: auto;
+display: inline-block;
+justify-content: center;
+    font-family: Gill Sans MT;
+ }
+
+/*
+.section2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    background-color: rgb(131, 78, 9);
+}
+
+.section2 .location h1{
+    font-size: 40px;
+    font-family: Gill Sans MT;
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+    text-decoration-color: #57cc33;
+}
+
+.section2 .location p{
+    font-size: 20px;
+    font-family: Gill Sans MT;
+    
+}
+
+.section2 .contact h1{
+    font-family: Gill Sans  MT;
+    font-size: 40px;
+    font-weight: 500;
+    text-decoration: underline 1.5px #57cc33;
+}
+
+
+.section2 .contact p{
+    font-family: Gill Sans MT;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+    .section2{
+        padding-top: 10px;
+    }
+} */

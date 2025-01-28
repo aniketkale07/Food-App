@@ -27,7 +27,7 @@ function Header() {
     <header>
       <Navbar
         expand="lg"
-        className={`${nav ? 'sticky' : ''} bg-body-tertiary`}
+        className={`navbar ${nav ? 'sticky' : ''} bg-body-tertiary`}
       >
         <Container>
           <Navbar.Brand href="#home">
