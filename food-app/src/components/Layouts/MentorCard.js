@@ -1,13 +1,19 @@
 import React from 'react'
 import { Col } from 'react-bootstrap'
-function MentorCard(image, name,role) {
+import '../../styles/mentorCard.css';
+
+function MentorCard({image, name, role}) {
   return (
     <>
-    <Col sm={12} lg={3} md={6}>
-        <div>
-            
+      <Col sm={12} lg={3} md={6}>
+
+        <div className='mt-5 mentor-card'>
+          <img src={image} alt='owner' className='imgfluid'></img>
+          <h4 className=''>{name}</h4>
+          <p>{role}</p>
         </div>
-    </Col>
+      </Col>
+
     </>
   )
 }

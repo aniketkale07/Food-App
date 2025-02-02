@@ -1,0 +1,38 @@
+/* .gradient-text {
+    background: linear-gradient(to left, #02fd41, #ff0000); 
+    -webkit-background-clip: text; 
+
+    -webkit-text-fill-color: transparent; 
+  }
+   */
+
+.mentor-card{
+    display: inline-block;
+    justify-items: center;
+    margin: 0px;
+    padding-top: 0px;
+    border: 1px solid black;
+    background-color: rgb(100, 124, 116);
+}
+
+.mentor-card img{
+    
+    width: 15rem;
+    height: 18rem;
+    padding-top: 0%;
+    image-rendering: auto;  
+    
+    object-fit:cover;
+}
+
+.mentor-card h4{
+    font-family: Gill Sans MT;
+    padding-top: 20px;
+   text-decoration: 1px underline;
+}
+
+.mentor-card p{
+    font-family: Gill Sans MT;
+    padding-top: 5px;
+   
+}

@@ -1,7 +1,12 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-function Section2() {
+import MentorCard from '../../components/Layouts/MentorCard';
+import Image1 from '../../assets/about/founder.jpg';
+import Image2 from '../../assets/about/insperation.jpg';
+import Image3 from '../../assets/about/founder.jpg';
+import Image4 from '../../assets/about/co-founder.jpg';
 
+function Section2() {
     const mentor=[
         {
             image:Image1,
@@ -31,34 +36,9 @@ function Section2() {
             <section className='section2'>
                 <Container>
                     <Row lg={4} md={3} sm={1}>
-                        <Col className='card'>
-                            <div>
-                                <img src='' alt='owner' className='imgfluid'></img>
-                                <h1>Aniket Kale</h1>
-                                <p>Motivation </p>
-                            </div>
-                        </Col>
-                        <Col  className='card'> 
-                            <div>
-                                <img src='' alt='owner' className='imgfluid'></img>
-                                <h1>Aniket Kale</h1>
-                                <p>Founder </p>
-                            </div>
-                        </Col>
-                        <Col className='card'>
-                            <div>
-                                <img src='' alt='owner' className='imgfluid'></img>
-                                <h1>Aniket Kale</h1>
-                                <p>Co-Founder</p>
-                            </div>
-                        </Col>
-                        <Col className='card'>
-                            <div>
-                                <img src='' alt='owner' className='imgfluid'></img>
-                                <h1>Aniket Kale</h1>
-                                <p>Founder of Tasty Burger</p>
-                            </div>
-                        </Col>
+                     {mentor.map((data, index)=>(
+                        <MentorCard image={data.image} name={data.name} role={data.role} />
+                     ))}
                     </Row>
                 </Container>
             </section>
