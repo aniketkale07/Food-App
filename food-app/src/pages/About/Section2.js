@@ -7,38 +7,38 @@ import Image3 from '../../assets/about/founder.jpg';
 import Image4 from '../../assets/about/co-founder.jpg';
 import '../../styles/about.css';
 function Section2() {
-    const mentor=[
+    const mentor = [
         {
-            image:Image1,
-            name:'Aniket Kale',
-            role:'Motivation',
+            image: Image1,
+            name: 'Aniket Kale',
+            role: 'Motivation',
         },
         {
-            image:Image2,
-            name:'Arohi Deshmukh',
-            role:'Insperation',
+            image: Image2,
+            name: 'Arohi Deshmukh',
+            role: 'Insperation',
         },
         {
-            image :Image3,
-            name:'Aniket Kale',
-            role:'Founder',
+            image: Image3,
+            name: 'Aniket Kale',
+            role: 'Founder',
         },
         {
-            image:Image4,
-            name:' Sam Mark',
-            role:"Co-Founder",
+            image: Image4,
+            name: ' Sam Mark',
+            role: "Co-Founder",
         },
     ]
-        
-    
+
+
     return (
         <>
             <section className='section2'>
                 <Container>
                     <Row lg={4} md={3} sm={1}>
-                     {mentor.map((data, index)=>(
-                        <MentorCard image={data.image} name={data.name} role={data.role} />
-                     ))}
+                        {mentor.map((data, index) => (
+                            <MentorCard image={data.image} name={data.name} role={data.role} />
+                        ))}
                     </Row>
                 </Container>
             </section>

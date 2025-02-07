@@ -1,0 +1,24 @@
+
+.blog-section1{
+    padding-top: 150px;
+    padding-bottom: 40px;
+    
+    background: url("../assets/blog/blog-heading.jpg")   no-repeat;
+    background-position: center;
+    background-size:100rem;
+    
+
+
+}
+
+.blog-section1 .title-section h1{
+    font-family: Franklin Gothic Medium;
+    font-size: 3.5rem;
+    color:rgb(0, 6, 56);
+}
+
+
+.blog-section2{
+    background-color: rgb(23, 224, 208);
+    
+}
