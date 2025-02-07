@@ -5,7 +5,7 @@ import Image1 from '../../assets/about/founder.jpg';
 import Image2 from '../../assets/about/insperation.jpg';
 import Image3 from '../../assets/about/founder.jpg';
 import Image4 from '../../assets/about/co-founder.jpg';
-
+import '../../styles/about.css';
 function Section2() {
     const mentor=[
         {
@@ -25,7 +25,7 @@ function Section2() {
         },
         {
             image:Image4,
-            name:'Mayuri Chavan',
+            name:' Sam Mark',
             role:"Co-Founder",
         },
     ]
@@ -42,6 +42,7 @@ function Section2() {
                     </Row>
                 </Container>
             </section>
+            <hr className='pt-5 mt-5 hr '></hr>
         </>
     )
 }

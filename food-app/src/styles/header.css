@@ -72,6 +72,10 @@ header .nav-link:hover{
     border-bottom: 1px solid blue;     
 }
 
+header .nav-link.active-link{
+    border-bottom: 1px solid blue !important; 
+}
+
 header .card{
     position:relative;
     top: -0.4375rem;
@@ -117,6 +121,7 @@ header .roundpoint{
         padding: 1rem !important;
     }
 }
+
 
 @media(max-width:768px){
     header .navbar{

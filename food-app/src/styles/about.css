@@ -5,7 +5,14 @@
     -webkit-text-fill-color: transparent; 
   }
   
-
+.hr{
+    width: 50%;
+    align-self: center;
+    position: relative;
+    left: 25%;
+    height: 31px;
+    
+}
 
 .about-heading-section{
     background: url('../assets/about/background.jpg') no-repeat center center;
@@ -71,6 +78,12 @@ justify-content: center;
     word-spacing: 2;
 }
 
+.section2{
+    background-color: antiquewhite;
+}
+
+
+
 @media(max-width:399px){
     .about-heading-section div h1{
         font-size: 4.4rem;
@@ -80,5 +93,16 @@ justify-content: center;
     .about-heading-section div p{
         font-size: 1.2rem;
     }
-    
+    .section2{
+        text-align: center;
+        display: contents;
+        justify-content: center;
+
+    }
+
+    .section2 Cont
+    ainer{
+        height: 50%;
+        width: 50%;
+    }
 }

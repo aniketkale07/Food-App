@@ -1,3 +1,14 @@
+.thankyou-section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    font-family: Gill Sans MT;
+    font-size: xx-large;
+
+    
+}
+
 .section1 {
     display: flex;
     justify-content: center;

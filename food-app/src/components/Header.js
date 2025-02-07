@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
-import { Link } from 'react-router'; 
+import { Link } from 'react-router-dom'; 
 import Logo from '../assets/logo/logo.png';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import '../styles/header.css';
@@ -41,19 +41,19 @@ function Header() {
               <Nav.Link as={Link} to={'/'}>
                 Home
               </Nav.Link>
-              <Nav.Link as={Link} to={'/about'}>
-                About
+              <Nav.Link as={Link} to="/about" className={({ isActive }) => isActive ? "active-link" : ""}>
+              About
               </Nav.Link>
-              <Nav.Link as={Link} to={'/menu'}>
+              <Nav.Link as={Link} to={'/menu'} activeClassName="active-link">
                 Our Menu
               </Nav.Link>
-              <Nav.Link as={Link} to={'/shop'}>
+              <Nav.Link as={Link} to={'/shop'} activeClassName="active-link">
                 Shop
               </Nav.Link>
-              <Nav.Link as={Link} to={'/blog'}>
+              <Nav.Link as={Link} to={'/blog'} activeClassName="active-link">
                 Blog
               </Nav.Link>
-              <Nav.Link as={Link} to={'/contact'}>
+              <Nav.Link as={Link} to={'/contact'} activeClassName="active-link">
                 Contact
               </Nav.Link>
               <Nav.Link as={Link} to={'/'}>
