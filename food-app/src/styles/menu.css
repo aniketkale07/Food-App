@@ -1,5 +1,69 @@
-.menu-section1{
-    padding-top: 100px;
+.menu-section1 {
+    padding-top: 60px;
     padding-bottom: 40px;
+}
+
+/* Background Image for Heading */
+.menu-section1 .menu1-heading {
+    background-image: url('../assets/menu/ads-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0;
+    color: white;
+}
+
+/* Heading Styles */
+.menu-section1 .menu1-heading h3 {
+    font-family: "Gill Sans MT", sans-serif;
+    font-weight: 600;
+    font-size: 3.5rem;
+    text-decoration: underline red;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Section 2 csss */
+
+.menu-container{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-bottom: 10px;
     
+    
+}
+.menu-container .menu-card{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    shape-outside: margin-box; 
+    padding-top: 20px;   
+}
+
+.menu-container .menu-card .img-fluid{
+    width: 90%;
+    height: 60%;
+    background-image: linear-gradient(red white);
+}
+
+
+.menu-container .menu-card:hover{
+    opacity: 80%;
+}
+
+
+.menu-container .menu-card h2{
+    font-family: Trebuchet MS;
+    font-weight: 600;
+}
+
+/* media Query */
+@media(max-width:767px) {
+    .menu-container .menu-card .img-fluid{
+        width: 90%;
+        height: 70%;
+        background-color: rosybrown;
+        background-image: linear-gradient(red white);
+    }
+       
 }

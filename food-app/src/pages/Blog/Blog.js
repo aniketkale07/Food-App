@@ -6,8 +6,7 @@ import '../../styles/blog.css';
 function Blog() {
   return (
     <Layout>
-
-    <Section1/>
+      <Section1 />
     </Layout>
   )
 }

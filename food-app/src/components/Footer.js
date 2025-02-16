@@ -5,10 +5,10 @@ import { Container, Row, Col } from 'react-bootstrap';
 import '../styles/footer.css';
 
 function Footer() {
-  // Scroll state
+  
   const [isVisible, setIsVisible] = useState(false);
 
-  // Scroll-to-top function
+  
   const scrollTop = () => {
     window.scrollTo({
       top: 0,
@@ -16,7 +16,7 @@ function Footer() {
     });
   };
 
-  // Check scroll position
+  
   const listenToScroll = () => {
     const windowScroll = document.body.scrollTop || document.documentElement.scrollTop;
     windowScroll > 250 ? setIsVisible(true) : setIsVisible(false);
@@ -85,7 +85,7 @@ function Footer() {
 
           <hr />
 
-          {/* Copy Right Content */}
+          
           <Row className="copy-right mt-5">
             <Col sm={12} className="text-center">
               <div className="copy-right-content">
@@ -111,7 +111,7 @@ function Footer() {
         </Container>
       </footer>
 
-      {/* Scroll to Top Button */}
+      
       {isVisible && (
         <div className="scroll-top" onClick={scrollTop}>
           <i className="bi bi-arrow-up"></i>

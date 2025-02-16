@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
-import { Link } from 'react-router-dom'; 
+import { Link } from 'react-router-dom';
 import Logo from '../assets/logo/logo.png';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import '../styles/header.css';
@@ -15,7 +15,7 @@ function Header() {
     setNav(scrollValue > 100);
   };
 
-  // Attach scroll event listener on component mount
+  
   useEffect(() => {
     window.addEventListener('scroll', changeOnScroll);
     return () => {
@@ -42,7 +42,7 @@ function Header() {
                 Home
               </Nav.Link>
               <Nav.Link as={Link} to="/about" className={({ isActive }) => isActive ? "active-link" : ""}>
-              About
+                About
               </Nav.Link>
               <Nav.Link as={Link} to={'/menu'} activeClassName="active-link">
                 Our Menu
