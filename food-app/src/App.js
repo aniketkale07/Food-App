@@ -8,7 +8,7 @@ import Contact from './pages/Contact/Contact';
 import Shop from './pages/Shop/Shop'; 
 import Menu from './pages/Menu/Menu';
 import Blog from './pages/Blog/Blog';
-
+import Cart from './pages/cart/Cart';
 function App() {
 
   return (
@@ -22,7 +22,8 @@ function App() {
       <Route path="/shop" element={<Shop/>} />
       <Route path="/menu" element={<Menu/>} />
       <Route path="/blog" element={<Blog/>} /> 
-
+      <Route path="/cart" element={<Cart/>} /> 
+    \
       </Routes>
     </BrowserRouter>
     </Fragment>

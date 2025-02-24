@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Card, Button, Badge } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
 import PizzaImg from '../../assets/menu/image.png';
 import BurgerImg from '../../assets/menu/burger-11.jpg';
 import SandwichImg from '../../assets/menu/burger-12.jpg';
@@ -16,10 +17,16 @@ const products = [
 
 const Section1 = () => {
     const [cart, setCart] = useState([]);
+    const navigate = useNavigate(); // Hook for navigation
 
     const handlerCardToCart = (item) => {
         // Avoid directly mutating the cart, use setCart to update it
         setCart(prevCart => [...prevCart, item]);
+    };
+
+    const handleGoToCart = () => {
+        // Navigate to the Cart Page and pass cart data
+        navigate('/cart', { state: { cart } });
     };
 
     return (
@@ -79,15 +86,13 @@ const Section1 = () => {
 
             {/* Cart Summary at the Bottom */}
             <div className="cart-summary mt-5">
-               <a href='/cart/{4}'>
-               {cart.length > 0 && (
+                {cart.length > 0 && (
                     <div className="text-center">
-                        <Button variant="success" style={{ position: 'fixed', bottom: '20px', right: '20px' }}>
+                        <Button variant="success" style={{ position: 'fixed', bottom: '20px', right: '20px' }} onClick={handleGoToCart}>
                             🛒 Cart <Badge bg="light" text="dark">{cart.length}</Badge>
                         </Button>
                     </div>
                 )}
-               </a>
             </div>
         </Container>
     );
